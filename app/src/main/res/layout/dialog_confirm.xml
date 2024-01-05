@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Are you sure you want to match the selected donor and patient?"
+        android:id="@+id/toggleSectionText"/>
+
+    <TextView
+        android:id="@+id/tvSelectedDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:text="Select Date and Time:"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSelectDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Date &amp; Time"
+        android:layout_marginTop="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkboxOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="I Assigned This Donor and Patient " />
+
+    <CheckBox
+        android:id="@+id/checkboxOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I will be responsible for this selection" />
+
+    <CheckBox
+        android:id="@+id/checkboxOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Confirm the chosen Date &amp; Time for the appointment." />
+
+</LinearLayout>

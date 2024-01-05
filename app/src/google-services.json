@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "625041981542",
+    "project_id": "mytransplant-42ded",
+    "storage_bucket": "mytransplant-42ded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625041981542:android:6c408c25e899b0efbf2da7",
+        "android_client_info": {
+          "package_name": "com.example.mytransplant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625041981542-9c0egna2i7prallhbur3kjgc4jkpe2ib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytransplant",
+            "certificate_hash": "9a44f1431c410142ce6417560d5de7ddfee85ac7"
+          }
+        },
+        {
+          "client_id": "625041981542-9k19v0g31ams6g7g7e2s9ddvrcc4c85s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzB5R2qEZeyiPXVryLsz63WuGbryNfRpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625041981542-9k19v0g31ams6g7g7e2s9ddvrcc4c85s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

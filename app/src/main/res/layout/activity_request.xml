@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/pinkk"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textOrganRequestForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organ Request Form"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Personal Information"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/textOrganRequestForm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your full name"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintStart_toEndOf="@id/textName"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/Title"/>
+
+        <TextView
+            android:id="@+id/texttIC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IC Number:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editName"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/editIC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your IC number"
+            app:layout_constraintStart_toEndOf="@id/texttIC"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editName"/>
+
+        <TextView
+            android:id="@+id/textDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editIC"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/editDOB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="Enter your date of birth"
+            app:layout_constraintStart_toEndOf="@id/textDOB"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editIC"/>
+
+        <TextView
+            android:id="@+id/textBloodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Type:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editDOB"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/editBloodType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your blood type"
+            app:layout_constraintStart_toEndOf="@id/textBloodType"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editDOB"/>
+
+        <TextView
+            android:id="@+id/textRace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Race:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editBloodType"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/editRace"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your race"
+            app:layout_constraintStart_toEndOf="@id/textRace"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editBloodType"/>
+
+        <TextView
+            android:id="@+id/textGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editRace" />
+
+        <EditText
+            android:id="@+id/editGender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your sex"
+            app:layout_constraintStart_toEndOf="@id/textGender"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editRace"/>
+
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editGender"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your address"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintStart_toEndOf="@id/textAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editGender"/>
+
+        <TextView
+            android:id="@+id/textPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editAddress" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Enter your tel. number"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintStart_toEndOf="@id/textPhone"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorBlack"
+            app:layout_constraintTop_toBottomOf="@id/editAddress"/>
+
+        <TextView
+            android:id="@+id/secRelatives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="2. Relatives"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editPhone" />
+
+        <TextView
+            android:id="@+id/textrelayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/secRelatives"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/editrelayName"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/editrelayName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Relatives Name"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintTop_toTopOf="@id/textrelayName"
+            app:layout_constraintStart_toEndOf="@id/textrelayName"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/textrelayRelation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relationship:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/editrelayName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/editrelayRelation"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/editrelayRelation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="What's your relationship"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintTop_toTopOf="@id/textrelayRelation"
+            app:layout_constraintStart_toEndOf="@id/textrelayRelation"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/textrelayNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Phone Number:"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@id/editrelayRelation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editrelayRelation" />
+
+        <EditText
+            android:id="@+id/editrelayNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Relatives Contact Number"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginRight="11dp"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintTop_toTopOf="@id/textrelayNumber"
+            app:layout_constraintStart_toEndOf="@id/textrelayNumber"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/textDonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="3. Choose your preferences"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editrelayNumber" />
+
+        <TextView
+            android:id="@+id/textorganDonation"
+            android:layout_width="177dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="8dp"
+            android:text="Organ Donation Preference"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@id/spinnerOrgan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textDonation" />
+
+        <Spinner
+            android:id="@+id/spinnerOrgan"
+            style="@style/SpinnerStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/organ_options"
+            app:layout_constraintTop_toTopOf="@id/textorganDonation"
+            app:layout_constraintStart_toEndOf="@id/textorganDonation"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/confirmRequest"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm Donation"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/spinnerOrgan"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/btn_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:id="@+id/imgverify"
+            android:layout_width="224dp"
+            android:layout_height="244dp"
+            android:layout_marginTop="110dp"
+            app:srcCompat="@drawable/checked"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textverifyView"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textverifyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Congratulations!"
+            android:background="@drawable/color_bggggg"
+            android:textColor="@color/colorBlack"
+            android:orientation="horizontal"
+            android:textSize="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/imgverify"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textverifyRequest"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textverifyRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/color_bggggg"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorBlack"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:text="You,ve assigned as a patient.\nWe will assign you an appointment as fast as possible."
+            android:textSize="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textverifyView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/fordisplay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/textverifyRequest"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:id="@+id/imgchecker"
+            android:layout_width="224dp"
+            android:layout_height="244dp"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/cancel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textcheckerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textrequestView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Warning!"
+            android:background="@drawable/color_bggg"
+            android:textColor="@color/colorBlack"
+            android:orientation="horizontal"
+            android:textSize="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/imgchecker"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textcheckerDonate"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textcheckerRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:background="@drawable/color_bggg"
+            android:textColor="@color/colorBlack"
+            android:orientation="horizontal"
+            android:text="You cannot became a patient if you already been a donor."
+            android:textSize="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textrequestView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/fordisplay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:text="TextView"
+            app:layout_constraintTop_toBottomOf="@+id/textcheckerRequest"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

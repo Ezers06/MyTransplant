@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyTransplant</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="brain">Brain</string>
+
+    <string name="about">Organ donation is a selfless act of giving healthy organs or tissues from a living or deceased individual to save the lives of others. It serves as a lifeline for patients suffering from organ failure or life-threatening conditions.</string>
+    <string name="bloodtype">The 4 different blood groups are: <b>\n\tA\n\tB\n\tAB\n\tO\n\n</b> Each type is either Rh-positive or Rh-negative. \n\n O negative blood can be given to anybody if necessary, but it is always preferable to match the exact blood group to prevent dangerous reactions.</string>
+    <string name="who_can_donate">Anyone in good health, regardless of age, can potentially donate organs. Living donors can donate kidneys, liver portions, and sometimes lungs. Deceased donors can contribute hearts, lungs, livers, kidneys, pancreas, and intestines. Donors need consent, and compatibility with the recipient\'s blood and tissue type is crucial. Interested individuals should contact local transplant centers for more information.</string>
+    <string name="type_of_bdonation">
+    <b>Organ donation</b> is a comprehensive process involving the generous contribution of organs and tissues from both deceased and living donors.\n\n
+
+    - Deceased donor scenarios encompass the allocation of whole organs such as the heart, lungs, liver, kidneys, and pancreas. Partial organ donations are also possible. Living donors may contribute organs like kidneys, liver lobes, lungs, and pancreas.\n\n
+
+    - Beyond solid organs, valuable donations include tissues like corneas, skin, bones, tendons, heart valves, and blood vessels, often possible from both living and deceased individuals.\n\n
+
+    - The distinction between allogeneic and autologous donation depends on whether the donor and recipient are genetically identical. Directed donations involve a specific donor-recipient relationship, contrasting with non-directed altruistic donations where the donor does not specify the recipient.\n\n
+
+    - The innovative approach of paired exchange donation facilitates exchanges between incompatible donor-recipient pairs, maximizing the potential for compatible matches and enhancing the overall efficacy of organ transplantation.\n\n
+
+    - Ethical, legal, and medical considerations inherent in organ donation ensure a comprehensive and regulated process, prioritizing the well-being and safety of both donors and recipients.
+    </string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="bloodgroups">
+        <item><b>Select Your Blood Group</b>></item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>

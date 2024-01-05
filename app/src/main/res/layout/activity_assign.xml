@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assign">
+
+    <TextView
+        android:id="@+id/viewDonator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:text="Select Donator" />
+
+    <TextView
+        android:id="@+id/textViewSelectedDonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewDonator"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Selected Donor: "
+        android:textSize="18dp"/>
+
+    <ListView
+        android:id="@+id/listViewDonater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnMatch"
+        android:layout_below="@id/textViewSelectedDonor"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp">
+
+
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/viewPatient"
+        android:layout_width="2000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMatch"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Select Patient" />
+
+    <TextView
+        android:id="@+id/textViewSelectedPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewPatient"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Selected Patient: "
+        android:textSize="18dp"/>
+
+    <ListView
+        android:id="@+id/listViewPatients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSelectedPatient"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnMatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Matching"/>
+
+</RelativeLayout>

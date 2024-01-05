@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#0000cd</color>
+    <color name="colorPrimary">#0000cd</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#C11515</color>
+    <color name="dark_gray">#A9A9A9</color>
+
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+
+    <color name="splashBackground">#FFFFFF</color>
+    <color name="splashText">#000000</color>
+
+    <color name="start">#FDEBD0</color>
+    <color name="end">#6E0B56</color>
+    <color name="grey">#F2F4F4</color>
+    <color name="startt">#F5B041</color>
+    <color name="endd">#FDEBD0</color>
+    <color name="starttt">#C0392B</color>
+    <color name="enddd">#F2D7D5</color>
+    <color name="startttt">#2980B9</color>
+    <color name="endddd">#D6EAF8</color>
+    <color name="starttttt">#27AE60</color>
+    <color name="enddddd">#D5F5E3</color>
+    <color name="greyy">#E5E8E8</color>
+    <color name="pinkk">#D6EAF8</color>
+    <color name="bluee">#85C1E9</color>
+
+
+</resources>

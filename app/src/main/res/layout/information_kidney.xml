@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/information_heart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7feff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/heartImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/kidney1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="The Kidney:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:textSize="13sp"
+                android:text="The kidneys are remarkable organs with a crucial role in maintaining the body's internal environment. On average, the human kidneys filter about 120 to 150 quarts of blood daily. This extensive blood filtration process helps remove waste products, excess fluids, and electrolytes, producing urine that is eventually excreted from the body." />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:textSize="13sp"
+                android:text="Despite their relatively small size, the kidneys play a vital role in maintaining proper fluid balance, electrolyte levels, and overall homeostasis. This continuous filtration and purification process contribute significantly to the body's overall health and well-being." />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

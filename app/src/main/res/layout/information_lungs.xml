@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/information_heart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7feff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/heartImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/lungs1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="The Lungs:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="When you breathe in, these cilia move rhythmically, directing mucus and trapped particles away from the lungs toward the throat. Once in the throat, this mucus can be either swallowed or expelled through coughing. This process helps to prevent foreign particles, dust, and bacteria from reaching the delicate air sacs in the lungs, contributing to the overall health and functionality of the respiratory system."
+                android:textSize="13sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="The lungs are equipped with a remarkable protective mechanism known as the mucociliary escalator. This system helps to keep the airways clean and free from harmful particles. The lining of the respiratory tract contains tiny hair-like structures called cilia and mucus-producing cells."
+                android:textSize="13sp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

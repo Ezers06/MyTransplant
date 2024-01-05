@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="organ_options">
+        <item>Heart</item>
+        <item>Lungs</item>
+        <item>Liver</item>
+        <item>Kidneys</item>
+    </array>
+
+    <array name="blood_type_options">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </array>
+
+    <array name="rh_factor_options">
+        <item>+</item>
+        <item>-</item>
+    </array>
+
+</resources>
+

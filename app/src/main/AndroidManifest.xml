@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mytransplant">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity
+            android:name=".Contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showPatient"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileDoctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".showDonate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Assign"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Status"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".getStarted"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Donate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorRegister"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgotPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationBrain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationLiver"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationLungs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationKidney"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationHeart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrganDetail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersonalInformation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountSettings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomepageDoctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
